@@ -26,13 +26,14 @@
         <a class="text-base md:text-xl hover:font-bold hover:underline decoration-white decoration-1"
           href="#">Features</a>
         <a class="text-base md:text-xl hover:font-bold hover:underline decoration-white decoration-1" href="#">Team</a>
-        <a class="text-base md:text-xl hover:font-bold hover:underline decoration-white decoration-1" href="#">Sign In</a>
+        <a class="text-base md:text-xl hover:font-bold hover:underline decoration-white decoration-1" href="#">Sign
+          In</a>
       </div>
     </div>
     <img class="place-self-center mt-8 mx-4" src="images/illustration-intro.png" alt="" aria-hidden="true">
   </header>
   <main>
-    <article class="grid pt-16 px-6 pb-60 text-center">
+    <article class="grid pt-16 px-6 pb-64 text-center">
       <h1 class="font-bold text-2xl mb-4"> All your files in one secure location, accessible anywhere.</h1>
 
       <p class="text-base mb-4">Fylo stores all your most important files in one secure location. Access them wherever
@@ -40,7 +41,7 @@
 
       <a class="my-8 text-lg font-bold px-8 py-3 rounded-full w-72 place-self-center flex items-center justify-center cursor-pointer bg-contain bg-gradient-to-r from-cyan to-blue hover:opacity-50"
         href="#">Get Started</a>
-      <section class="pt-16">
+      <section class="pt-16 relative">
         <div class="grid gap-16 text-center">
           <div class="grid">
             <img class="place-self-center mb-8" src="images/icon-access-anywhere.svg" alt="" aria-hidden="true">
@@ -135,35 +136,59 @@
 
         </div>
 
-        <div>
-          <p> Get early access today
+        <div class="grid gap-4 bg-elements-bg px-4 py-8 rounded-md absolute left-1/2 -ml-[50%] mb-[20%]">
+          <h2 class="text-xl font-Raleway font-bold">Get early access today</h2>
 
-            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
-            questions, our support team would be happy to help you.
-
-            Get Started For Free</p>
-
+          <p class="text-base">It only takes a minute to sign up and our free starter tier is extremely generous. If you
+            have any
+            questions, our support team would be happy to help you.</p>
+          <div class="grid">
+            <input class="text-elements-bg font-bold px-8 py-3 rounded-full w-full text-base place-self-center"
+              type="email" placeholder="email@example.com">
+            <a class="text-lg font-bold mt-4 px-8 py-3 rounded-full w-full place-self-center flex items-center justify-center cursor-pointer bg-contain bg-gradient-to-r from-cyan to-blue hover:opacity-50"
+              href="#">Get Started For Free</a>
+          </div>
         </div>
       </section>
     </article>
   </main>
-  <footer class="grid px-6 py-8 md:p-16">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-      dolore magna aliqua
+  <footer class="grid gap-8 bg-footer-bg px-6 pb-12 pt-32 md:p-16">
+    <img class="" src="images/logo.svg" alt="Logo">
+    <ul class="grid gap-4">
+      <li>
+        <a class="flex items-center gap-4 text-lg" href="#"><img class="place-self-start" src="images/icon-location.svg"
+            alt="" aria-hidden="true">Lorem ipsum dolor sit amet,
+          consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua</a>
+      </li>
+      <li class="grid gap-4">
+        <a class="flex items-center gap-4 text-lg" href="#"><img src="images/icon-phone.svg" alt=""
+            aria-hidden="true">+1-543-123-4567</a>
+        <a class="flex items-center gap-4 text-lg" href="#"><img src="images/icon-email.svg" alt=""
+            aria-hidden="true">example@fylo.com</a>
+      </li>
+      <li class="grid gap-4 mt-12">
+        <a class="text-white text-lg hover:font-bold" href="#">About Us</a>
+        <a class="text-white text-lg hover:font-bold" href="#">Jobs</a>
+        <a class="text-white text-lg hover:font-bold" href="#">Press</a>
+        <a class="text-white text-lg hover:font-bold" href="#">Blog</a>
+      </li>
 
-      +1-543-123-4567
-      example@fylo.com
-
-      About Us
-      Jobs
-      Press
-      Blog
-
-      Contact Us
-      Terms
-      Privacy</p>
+      <li class="grid gap-4 mt-12">
+        <a class="text-white text-lg hover:font-bold" href="#">Contact Us</a>
+        <a class="text-white text-lg hover:font-bold" href="#">Terms</a>
+        <a class="text-white text-lg hover:font-bold" href="#">Privacy</a>
+      </li>
+      <li class="flex items-center place-self-center gap-4 mt-16">
+        <a class="text-white text-4xl hover:text-cyan" href="#"><ion-icon class="icon" name="logo-facebook"></ion-icon></a>
+        <a class="text-white text-4xl hover:text-cyan" href="#"><ion-icon class="icon" name="logo-twitter"></ion-icon></a>
+        <a class="text-white text-4xl hover:text-cyan" href="#"><ion-icon class="icon" name="logo-instagram"></ion-icon></a>
+      </li>
+    </ul>
   </footer>
   <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </body>
 
 </html>
