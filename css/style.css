@@ -837,6 +837,15 @@ video {
   text-underline-offset: 4px;
 }
 
+.hover\:text-5xl:hover {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.hover\:text-\[2\.5rem\]:hover {
+  font-size: 2.5rem;
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
@@ -849,6 +858,10 @@ video {
 .hover\:text-cyan:hover {
   --tw-text-opacity: 1;
   color: hsl(176 68% 64% / var(--tw-text-opacity));
+}
+
+.hover\:text-\[5xl\]:hover {
+  color: 5xl;
 }
 
 .hover\:underline:hover {
