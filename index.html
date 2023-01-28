@@ -19,7 +19,7 @@
 </head>
 
 <body class="text-white text-sm font-sans font-normal bg-main-bg">
-  <header class="grid bg-elements-bg px-6 py-8 md:p-16 font-Raleway text-center">
+  <header class="grid bg-elements-bg px-6 py-10 md:p-16 font-Raleway text-center relative">
     <div class="flex justify-between items-center">
       <img class="max-sm:w-28" src="images/logo.svg" alt="Logo">
       <div class="flex gap-4 md:gap-10">
@@ -32,14 +32,19 @@
           In</a>
       </div>
     </div>
-    <img class="place-self-center my-8 mx-4" src="images/illustration-intro.png" alt="" aria-hidden="true">
-    <h1 class="font-bold text-2xl mb-4 md:text-3xl lg:w-6/12 place-self-center"> All your files in one secure location, accessible anywhere.</h1>
+    <img class="place-self-center my-10 mx-4 z-10" src="images/illustration-intro.png" alt="" aria-hidden="true">
+    <h1 class="font-bold text-2xl mb-10 md:text-4xl lg:w-6/12 place-self-center z-10"> All your files in one secure location, accessible anywhere.</h1>
 
-      <p class="text-base mb-4 md:text-lg lg:w-5/12 place-self-center">Fylo stores all your most important files in one secure location. Access them wherever
+      <p class="text-base mb-4 md:text-xl lg:w-6/12 place-self-center z-10">Fylo stores all your most important files in one secure location. Access them wherever
         you need, share and collaborate with friends family, and co-workers.</p>
 
-      <a class="my-8 text-lg font-bold px-8 py-3 rounded-full w-72 place-self-center flex items-center justify-center cursor-pointer bg-contain bg-gradient-to-r from-cyan to-blue hover:opacity-50"
+      <a class="my-8 text-lg font-bold px-8 py-3 rounded-full w-72 place-self-center flex items-center justify-center cursor-pointer bg-contain bg-gradient-to-r from-cyan to-blue hover:opacity-50 z-10"
         href="#">Get Started</a>
+
+        <picture>
+          <source media="(min-width:1024px)" srcset="images/bg-curvy-desktop.svg">
+          <img class="w-full absolute bottom-0 left-0 z-0" src="images/bg-curvy-mobile.svg" alt="" aria-hidden="true">
+        </picture>
   </header>
   <main>   
       <section class="grid pt-16 px-6 pb-64 text-center relative">
